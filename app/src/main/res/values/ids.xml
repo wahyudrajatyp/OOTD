@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imageView_body_fragment" type="id" />
+    <item name="bawah_container" type="id" />
+    <item name="Splash" type="id" />
+    <item name="txtSplash" type="id" />
+    <item name="tvSplash" type="id" />
+</resources>

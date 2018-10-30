@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abu"
+    tools:context=".Main2Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <!--container untuk atas-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:id="@+id/atas_container"
+            android:background="@color/abu"
+            >
+        </FrameLayout>
+        <!-- container untuk bawah-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_weight="1"
+            android:id="@+id/bawah_container"
+            android:background="@color/abu"
+            >
+        </FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="http://www.uniqlo.com"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit By TI4F"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KHOIRUN NISA' F.J"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WAHYU DRAJATY P"
+            />
+    </LinearLayout>
+</ScrollView>
